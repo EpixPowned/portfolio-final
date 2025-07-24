@@ -1,3 +1,13 @@
-export default function Contact() {
-    return <h1>Contact Me</h1>
+import React from "react";
+import Footer from "./Footer.js"
+
+
+const Contact = () => {
+    return(
+        <div>
+            <Footer />
+        </div>
+    )
 }
+
+export default Contact
