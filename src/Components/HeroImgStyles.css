@@ -35,19 +35,20 @@
     top: 50%;
     left: 50%;
     text-align: center;
+    
 }
 
 .hero .content h1{
     font-size: 4rem;
     padding: 0.6rem 0 1.5rem;
-    color: white;
+    color: cornsilk;
 }
 
 .hero .content p{
     font-size: 1.4rem;
     font-weight:200;
     text-transform: uppercase;
-    color: white;
+    color: cornsilk;
 }
 
 .content .btn {
