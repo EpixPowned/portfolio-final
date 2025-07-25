@@ -6,7 +6,7 @@ import React from 'react'
 const InfoCard = () => {
     return(
         <div className="info-container">
-            <h1 className="info-heading">Projects</h1>
+            <h1 className="info-heading"></h1>
             <div className="info-container">
                 <div className="info-card">
                     <img src={photo1} alt="image" />

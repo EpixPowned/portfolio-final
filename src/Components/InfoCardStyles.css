@@ -21,9 +21,31 @@
     width: 100%
 }
 
+.info-title {
+    color:#fff;
+    padding: 1rem 0;
+}
+
+.info-details {
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.info-btns {
+    display:flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
+.info-btns .btn {
+    padding: 0.5rem 1rem
+}
+
 
 @media screen and (max-width:740px) 
-{ .info-container{
+{ 
+    .info-container{
     max-width: 90%;
     margin: auto;
 
