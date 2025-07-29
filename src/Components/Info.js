@@ -6,7 +6,7 @@ import InfoCardData from "./InfoCardData"
 
 const Info = (props) => {
     return(
-        <div className="info-container">
+        <div className="work-container">
             <h1 className="info-heading"></h1>
             <div className="info-container">
                 {InfoCardData.map((val, index) =>{

@@ -27,9 +27,7 @@
 
 }
 
-.location p{
-    line-height: 30px;
-}
+
 
 .phone{
     display: flex;
@@ -37,9 +35,7 @@
 
 }
 
-.phone p{
-    line-height: 30px;
-}
+
 
 .mail{
     display: flex;
@@ -47,9 +43,7 @@
 
 }
 
-.mail p{
-    line-height: 30px;
-}
+
 
 .right{
     height:100%;
@@ -66,6 +60,7 @@
 h4{ 
     font-size: 1.2rem;
     padding-bottom: 0.7rem;
+    color: cornsilk;
 }
 
 p{

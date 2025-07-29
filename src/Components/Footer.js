@@ -7,30 +7,35 @@ const Footer = () => {
             <div className="footer-container">
                 <div className="left">
                     <div className="location">
+                        <h4>
                         <FaHome size={20} style= {{color: "#fff", marginRight: "2rem"}}/>
-                        <div><p>New Jersey/New York</p></div>
+                            New Jersey / New York
+                        </h4>
                     </div>
                     <div className="phone">
                         <h4>
                         <FaPhone size={20} style= {{color: "#fff", marginRight: "2rem"}}/>
-                        <div><p>908-279-4020</p></div>
+                        908-279-4020
                         </h4>  
                     </div>
-
                     <div className="mail">
                         <h4>
                         <FaMailBulk size={20} style= {{color: "#fff", marginRight: "2rem"}}/>
-                        <div><p>pcantave35@gmail.com</p></div>
+                        pcantave35@gmail.com
                         </h4>
-                        
                     </div>
                 </div>
                 <div className="right">
-
                 <div className="social">
-                    <FaLinkedin size={30} style= {{color: "#fff", marginRight: "1rem"}}/>
-                    <FaInstagram size={30} style= {{color: "#fff", marginRight: "1rem"}}/>
+                    <a href="https://www.linkedin.com/in/paul-cantave/"  target="_blank" rel="noopener noreferrer">
+                        <FaLinkedin size={30} style= {{color: "#fff", marginRight: "1rem"}}/>
+                    </a>
+                    <a href="https://www.instagram.com/paulcantave"  target="_blank" rel="noopener noreferrer">
+                        <FaInstagram size={30} style= {{color: "#fff", marginRight: "1rem"}}/>
+                    </a>
+                    <a href="https://github.com/EpixPowned"  target="_blank" rel="noopener noreferrer">
                     <FaGithub size={30} style= {{color: "#fff", marginRight: "1rem"}}/>
+                    </a>
                 </div>
             
                 </div>

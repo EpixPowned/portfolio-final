@@ -4,7 +4,7 @@ import photo3 from "./imgs/paul1.JPG"
 
 const InfoCardData = [
  {
-    imgsrc: photo1,
+    imgsrc: photo2,
     title: "Project 1 Title",
     text: "This is Project 1",
     view: "https://github.com/EpixPowned"
@@ -16,7 +16,7 @@ const InfoCardData = [
     view: "https://github.com/EpixPowned"
  },
  {
-    imgsrc: photo3,
+    imgsrc: photo2,
     title: "Project 3 Title",
     text: "This is Project 3",
     view: "https://github.com/EpixPowned"
