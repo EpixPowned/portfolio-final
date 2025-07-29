@@ -1,29 +1,27 @@
+import ContactInfoData from "./ContactInfoData.js"
+import InfoCard from "./InfoCard.js"
 import "./InfoCardStyles.css"
-import React from 'react'
-import InfoCard from "./InfoCard"
-import InfoCardData from "./InfoCardData"
 
-const Info = (props) => {
-    return(
-        <div className="work-container">
-            <div className="info-container">
-                {InfoCardData.map((val, index) =>{
+
+const ContactInfo = () => {
+   return( <div className="work-container">
+            <div className="contact-info-container">
+                {ContactInfoData.map((val, index) =>{
                     return(
                         <InfoCard 
                         key = {index}
                         imgsrc = { val.imgsrc }
                         title = { val.title }
                         text = { val.text }
-                        view= { val.view }
-                        buttonname = {val.buttonname}
+                        view = { val.view }
+                        buttonname = { val.buttonname }
                         showButton = { val.showButton }
                         />
                     )
                 }
                 )}
             </div>
-        </div>
-    )
+        </div>)
 }
 
-export default Info
+export default ContactInfo;

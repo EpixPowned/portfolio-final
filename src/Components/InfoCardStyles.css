@@ -12,6 +12,14 @@
     padding-bottom: 5rem;
 }
 
+.contact-info-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 1rem; 
+
+}
+
 .info-card{
     background: #1a1919;
     padding:1.2rem 1rem;
@@ -22,7 +30,7 @@
 }
 
 .info-title {
-    color: cornsilk;
+    color: white;
     padding: 1rem 0;
 }
 
@@ -30,7 +38,7 @@
     padding-bottom: 1rem;
     font-size: 1.1rem;
     text-align: center;
-    color: cornsilk;
+    color: white;
 }
 
 .info-btns {

@@ -11,21 +11,21 @@ const AboutInfo = () => {
         <div className="left">
         <h1>Who Am I?</h1>
         <p>This is who I am. I am me and me am I.</p>
-        <Link to="/contact"></Link>
+        <Link to="/Contact">
         <button className="btn">Contact</button>
+        </Link>
         </div>
         <div className="right">
             <div className="img-container">
-                <div className="img-stacktop">
+                <div className="img-stack top">
                     <img src={photo2} className="img" alt="true"/>
                 </div>
-                <div className="img-stacktop">
+                <div className="img-stack bottom">
                     <img src={photo3} className="img" alt="true"/>
                 </div>
             </div>
         </div>
         <div className="work-container">
-            <h1 className="info-heading"></h1>
             <div className="info-container">
                 {AboutInfoData.map((val, index) =>{
                     return(
