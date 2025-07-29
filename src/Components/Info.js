@@ -18,7 +18,7 @@ const Info = (props) => {
                         text = { val.text }
                         view= { val.view }
                         buttonname = {val.buttonname}
-                        showbutton = { val.showbutton }
+                        showButton = { val.showButton }
                         />
                     )
                 }
