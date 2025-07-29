@@ -7,19 +7,25 @@ const InfoCardData = [
     imgsrc: photo2,
     title: "Project 1 Title",
     text: "This is Project 1",
-    view: "https://github.com/EpixPowned"
+    view: "https://github.com/EpixPowned",
+    buttonname: "Github",
+    showButton: true
  },
   {
     imgsrc: photo2,
     title: "Project 2 Title",
     text: "This is Project 2",
-    view: "https://github.com/EpixPowned"
+    view: "https://github.com/EpixPowned",
+    buttonname: "Github",
+    showButton: true
  },
  {
     imgsrc: photo2,
     title: "Project 3 Title",
     text: "This is Project 3",
-    view: "https://github.com/EpixPowned"
+    view: "https://github.com/EpixPowned",
+    buttonname: "Github",
+    showButton: true
  }
 ]
 

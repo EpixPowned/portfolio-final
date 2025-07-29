@@ -3,12 +3,8 @@ import "./AboutInfoStyles.css"
 import React from "react";
 import photo2 from "./imgs/paul2.jpg"
 import photo3 from "./imgs/paul3.jpg"
-
-const Abouts = [
-    {title:'Education', description: 'This is a test, more added later.', imgURL: ''},
-    {title: 'Experience', description: 'Another test for formatting', imgURL: ''},
-    {title: 'Interests', description:'Third test.', imgURL: ''},
-]
+import AboutInfoData from "./AboutInfoData.js"
+import InfoCard from "./InfoCard.js"
 
 const AboutInfo = () => {
     return <div className="about">
@@ -18,7 +14,6 @@ const AboutInfo = () => {
         <Link to="/contact"></Link>
         <button className="btn">Contact</button>
         </div>
-
         <div className="right">
             <div className="img-container">
                 <div className="img-stacktop">
@@ -29,6 +24,26 @@ const AboutInfo = () => {
                 </div>
             </div>
         </div>
+        <div className="work-container">
+            <h1 className="info-heading"></h1>
+            <div className="info-container">
+                {AboutInfoData.map((val, index) =>{
+                    return(
+                        <InfoCard 
+                        key = {index}
+                        imgsrc = { val.imgsrc }
+                        title = { val.title }
+                        text = { val.text }
+                        view = { val.view }
+                        buttonname = { val.buttonname }
+                        showButton = { val.showButton }
+                        />
+                    )
+                }
+                )}
+            </div>
+        </div>
+
     </div>
 }
 

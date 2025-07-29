@@ -7,14 +7,16 @@ const InfoCard = (props) => {
     return(
                 <div className="info-card">
                     <img src={props.imgsrc} alt="image" />
-                    <h2 className="info-title">{props.title}
-                    </h2>
+                        <h2 className="info-title">{props.title}
+                        </h2>
                     <div className="info-details">
-                    <p>{props.text}</p>
+                        <p>{props.text}</p>
                     </div>
-                    <div className="info-btns">
-                        <NavLink to={props.view} className="btn">Github</NavLink>
-                    </div>
+                    {props.showButton !== false && (
+                        <div className="info-btns">
+                        <NavLink to={props.view} className="btn">{props.buttonname}</NavLink>
+                        </div>
+                        )}
                 </div> 
     )
 }
