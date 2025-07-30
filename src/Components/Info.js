@@ -1,4 +1,4 @@
-import "./InfoCardStyles.css"
+import "./css/InfoCardStyles.css"
 import React from 'react'
 import InfoCard from "./InfoCard"
 import InfoCardData from "./InfoCardData"

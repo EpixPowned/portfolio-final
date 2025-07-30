@@ -1,6 +1,6 @@
 import ContactInfoData from "./ContactInfoData.js"
 import InfoCard from "./InfoCard.js"
-import "./InfoCardStyles.css"
+import "./css/InfoCardStyles.css"
 
 
 const ContactInfo = () => {

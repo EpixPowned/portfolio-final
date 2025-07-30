@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import "./HeroImgStyles.css"
+import "./css/HeroImgStyles.css"
 import backgroundImage from "./imgs/paul1.JPG"
 import React from "react"
 

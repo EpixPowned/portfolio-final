@@ -1,13 +1,16 @@
+
+
 .top-page{
     width: 100%;
     background-color: rgba(0,0,0,0.5);
     height: 60vh;
     position: relative;
+    background-size: cover;
+    background-position: center 37%;
 }
 
 .top-page::before{
     content: "";
-    background: url("imgs/nycskyline.jpg");
     background-size: cover;
     background-position: center 37%;
     height: 100%;

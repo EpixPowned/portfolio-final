@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom"
-import "./InfoCardStyles.css"
+import "./css/InfoCardStyles.css"
 import photo1 from "./imgs/grad.jpg"
 import React from 'react'
 

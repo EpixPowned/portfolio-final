@@ -1,4 +1,4 @@
-import "./FooterStyles.css"
+import "./css/FooterStyles.css"
 import { FaGithub, FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaPhone } from "react-icons/fa"
 
 const Footer = () => {

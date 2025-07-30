@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./AboutInfoStyles.css"
+import "./css/AboutInfoStyles.css"
 import React from "react";
 import photo2 from "./imgs/paul2.jpg"
 import photo3 from "./imgs/paul3.jpg"
