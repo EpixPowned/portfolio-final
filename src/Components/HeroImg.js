@@ -11,7 +11,7 @@ const HeroImg = () => {
                 src={backgroundImage} alt="backgroundImage"/>
             </div>
             <div className="content">
-                <p>Welcome to my website!</p>
+                <p>Welcome to my portfolio!</p>
                 <h1>Prospective Software Engineer</h1>
                 <div>
                     <Link to="/Projects"

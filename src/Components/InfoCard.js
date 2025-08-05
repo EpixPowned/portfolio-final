@@ -1,12 +1,11 @@
 import { NavLink } from "react-router-dom"
 import "./css/InfoCardStyles.css"
-import photo1 from "./imgs/grad.jpg"
 import React from 'react'
 
 const InfoCard = (props) => {
     return(
                 <div className="info-card">
-                    <img src={props.imgsrc} alt="image" />
+                    <img src={props.imgsrc} alt="" />
                         <h2 className="info-title">{props.title}
                         </h2>
                     <div className="info-details">

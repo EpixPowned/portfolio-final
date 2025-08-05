@@ -13,9 +13,9 @@ const InfoCardData = [
  },
   {
     imgsrc: photo2,
-    title: "Project 2 Title",
-    text: "This is Project 2",
-    view: "https://github.com/EpixPowned",
+    title: "Premier League Scorers",
+    text: "This project uses Java to retrieve data from a website and display the top scorers in the English Premier League. The data is then displayed in a user-friendly format.",
+    view: "https://github.com/EpixPowned/PremierLeagueScorers",
     buttonname: "Github",
     showButton: true
  },
