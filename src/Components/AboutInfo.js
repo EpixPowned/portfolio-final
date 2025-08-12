@@ -10,7 +10,7 @@ const AboutInfo = () => {
     return <div className="about">
         <div className="left">
         <h1>Who Am I?</h1>
-        <p>This is who I am. I am me and me am I.</p>
+        <p>If you are looking to contact me, press the button below!</p>
         <Link to="/Contact">
         <button className="btn">Contact</button>
         </Link>

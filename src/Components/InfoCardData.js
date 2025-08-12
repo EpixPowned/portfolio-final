@@ -1,4 +1,4 @@
-import photo1 from "./imgs/grad.jpg"
+import photo1 from "./imgs/topscorers.jpg"
 import photo2 from "./imgs/Mate.jpg"
 import photo3 from "./imgs/bashshell.png"
 
@@ -12,7 +12,7 @@ const InfoCardData = [
     showButton: true
  },
   {
-    imgsrc: photo2,
+    imgsrc: photo1,
     title: "Premier League Scorers",
     text: "This project uses Java to retrieve data from a website and display the top scorers in the English Premier League. The data is then displayed in a user-friendly format.",
     view: "https://github.com/EpixPowned/PremierLeagueScorers",

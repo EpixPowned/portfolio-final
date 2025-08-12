@@ -1,5 +1,6 @@
 import photo2 from "./imgs/Mate.jpg"
 import photo3 from "./imgs/grad.jpg"
+import photo1 from "./imgs/ballgame.jpg"
 
 const AboutInfoData = [
 {
@@ -19,7 +20,7 @@ const AboutInfoData = [
     showButton: false
  },
  {
-    imgsrc: photo2,
+    imgsrc: photo1,
     title: "Interests",
     text: "Outside of computer science, I am a big soccer fan and enjoy both watching and playing the game. I am a Tottenham Hotspur supporter and enjoy following the Premier League along with other leagues. I am proudly Haitian-American and love to explore my culture, whether it be watching the national team play or making and eating some Haitian foods. I also love watching movies and TV shows, and some of my favorites include The Grand Budapest Hotel, Mishima, and Mr. Robot. I also enjoy photography, and you can find some of my work on my this portfolio.",
     view: "",
