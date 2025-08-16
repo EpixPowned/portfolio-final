@@ -11,6 +11,7 @@ function App() {
 
   return (
     <>
+    <title>My Portfolio</title>
     <Navbar />
       <div className='container'>
         <Routes>

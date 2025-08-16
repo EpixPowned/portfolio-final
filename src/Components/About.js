@@ -7,6 +7,7 @@ import AboutInfo from "./AboutInfo.js";
 const About = () => {
     return(
         <div>
+            <title>About Me</title>
             <TopPage heading = "ABOUT ME" text = "Here is some information about me!"/>
             <AboutInfo />
             <Footer />
