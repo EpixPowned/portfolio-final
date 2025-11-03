@@ -10,7 +10,7 @@ export default function Navbar() {
                 <CustomLink to="/About">About Me</CustomLink>
                 <CustomLink to="/Contact">Contact Me</CustomLink>
                 <li>
-                <a href="https://drive.google.com/file/d/1RZkdGN5nwnFrmFRc3pIbRGi6OSeRhPKu/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+                <a href="https://drive.google.com/file/d/1E8LgZ-RNrkNM1dg-7qlpVQdd-9XkTkAO/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
                 </li>
             </ul>
         </nav>
